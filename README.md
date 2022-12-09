@@ -3,6 +3,8 @@ Inspired by [Myanimelist](https://myanimelist.net/), Myanimestats is a cli tool 
 You can edit the metadata of animes such as its state (watching/completed/dropped/on hold/plan to watch), seasons, episodes, progress
 Myanimestats uses a txt file (animes.txt) as an anime database, but you don't need to edit this file, because the script takes care off adding new anime or editing existing ones
 
+![](https://github.com/Kiefciman/myanimestats/blob/master/myanimestats.gif)
+
 ### To run the tool
 Run the "myanimestats.sh" script
 ```
