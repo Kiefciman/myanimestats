@@ -205,35 +205,41 @@ function edit_anime(){
 				awk -v line_number="$line_number" -F'|' 'NR==line_number{OFS=FS;$2="p"} {print}' animes.txt > tmp && mv tmp animes.txt
 			fi
 			edit_other "$list_watching"
+			./main.sh
 		elif [ "$edit" = "ts" ] || [ "$edit" = "Ts" ] || [ "$edit" = "TS" ]
 		then
 			echo " "
 			echo -e "$color1 How many seasons does$color2$name$color1 have?$color2"
 			read -p " > " new_total_seasons
 			awk -v new_total_seasons="$new_total_seasons" -v line_number="$line_number" -F'|' 'NR==line_number{OFS=FS;$3=new_total_seasons} {print}' animes.txt > tmp && mv tmp animes.txt
+			./main.sh
 		elif [ "$edi" = "cs" ] || [ "$edit" = "Cs" ] || [ "$edit" = "CS" ]
 		then
 			echo -e "$color1 Wich season are u currently watching?$color2"
 			read -p " > " new_current_season
 			awk -v new_current_season="$new_current_season" -v line_number="$line_number" -F'|' 'NR==line_number{OFS=FS;$4=new_current_season} {print}' animes.txt > tmp && mv tmp animes.txt
+			./main.sh
 		elif [ "$edit" = "te" ] || [ "$edit" = "Te" ] || [ "$edit" = "TE" ]
 		then
 			echo " "
 			echo -e "$color1 How many episodes does the season you're currently watching have?$color2"
 			read -p " > " new_total_episodes
 			awk -v new_total_episodes="$new_total_episodes" -v line_number="$line_number" -F'|' 'NR==line_number{OFS=FS;$5=new_total_episodes} {print}' animes.txt > tmp && mv tmp animes.txt
+			./main.sh
 		elif [ "$edit" = "ce" ] || [ "$edit" = "Ce" ] || [ "$edit" = "CE" ]
 		then
 			echo " "
 			echo -e "$color1 Wich episode did you watched last time?$color2"
 			read -p " > " new_current_episode
 			awk -v new_current_episode="$new_current_episode" -v line_number="$line_number" -F'|' 'NR==line_number{OFS=FS;$6=new_current_episode} {print}' animes.txt > tmp && mv tmp animes.txt
+			./main.sh
 		elif [ "$edit" = "r" ] || [ "$edit" = "R" ]
 		then
 			echo " "
 			echo -e "$color1 How much 🟊 do you give to$color2$name$color1?$color2"
 			read -p " > " new_rating
 			awk -v new_rating="$new_rating" -v line_number="$line_number" -F'|' 'NR==line_number{OFS=FS;$7=new_rating} {print}' animes.txt > tmp && mv tmp animes.txt
+			./main.sh
 		elif [ "$edit" = "n" ] || [ "$edit" = "N" ]
 		then
 			echo " "
@@ -242,6 +248,7 @@ function edit_anime(){
 			echo -e "$color1 What new name do you wanna give to$color2$name$color1?$color2"
 			read -p " > " new_name
 			awk -v new_name="$new_name" -v line_number="$line_number" -F'|' 'NR==line_number{OFS=FS;$1=new_name} {print}' animes.txt > tmp && mv tmp animes.txt
+			./main.sh
 		elif [ "$edit" = "b" ] || [ "$edit" = "B" ]
 		then
 			./main.sh
