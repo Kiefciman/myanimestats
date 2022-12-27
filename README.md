@@ -22,7 +22,7 @@ sudo pacman -S fzf git
 ```
 Then clone this repo:
 ```
-git clone https://github.com/Kiefciman/myanimestats/edit/master/README.md
+git clone https://github.com/Kiefciman/myanimestats.git
 ```
 - **Windows:**<br>
 Dependencies: bash fzf git<br>
@@ -41,7 +41,7 @@ scoop install fzf
 Then open the Bash shell by typing **bash** or set bash as a terminal profile (at the path simply type bash)<br>
 Then clone this repo:
 ```
-git clone https://github.com/Kiefciman/myanimestats/edit/master/README.md
+git clone https://github.com/Kiefciman/myanimestats.git
 ```
 - **Android:**<br>
 Not tested yet
