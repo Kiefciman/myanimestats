@@ -160,7 +160,7 @@ function edit_anime(){
 	clear
 	echo " "
 	echo -e "$color2 uwu$color1 Here you can edit your progress of this anime:$color2"
-	name=$(name "$1")
+	name=$(name "$1" | cut -d':' -f1)
 	line_number=$(line_number $name)
 	if [ "$name" = "" ]
 	then 
