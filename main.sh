@@ -213,7 +213,7 @@ function edit_anime(){
 			read -p " > " new_total_seasons
 			awk -v new_total_seasons="$new_total_seasons" -v line_number="$line_number" -F'|' 'NR==line_number{OFS=FS;$3=new_total_seasons} {print}' animes.txt > tmp && mv tmp animes.txt
 			./main.sh
-		elif [ "$edi" = "cs" ] || [ "$edit" = "Cs" ] || [ "$edit" = "CS" ]
+		elif [ "$edit" = "cs" ] || [ "$edit" = "Cs" ] || [ "$edit" = "CS" ]
 		then
 			echo -e "$color1 Wich season are u currently watching?$color2"
 			read -p " > " new_current_season
