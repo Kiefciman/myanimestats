@@ -8,7 +8,7 @@
 
 	body {
 		height: 85vh;
-	}d
+	}
 
 	.content {
 		overflow-y: auto;
@@ -161,3 +161,4 @@ img {
 .anime:hover {
 	background-color: #313244;
 }
+
