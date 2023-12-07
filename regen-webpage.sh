@@ -8,6 +8,7 @@ echo '</head>' >> index.html
 echo '<body>' >> index.html
 echo '<div class = "title">' >> index.html
 echo '<h1>[kiefciman ~]|||||||||||||</h1>' >> index.html
+echo '<h2>My anime stats</h2><br>' >> index.html
 echo '</div>' >> index.html
 echo '<div class = "content">'>> index.html
 echo '<div class = "container">' >> index.html
