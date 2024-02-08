@@ -60,4 +60,4 @@ Seraph of the end|c|2|1|24|2|10
 Konosuba: an explosion on this wonderful world|w|1|1|12|1|10
 Bocchi the Rock|w|1|1|12|5|10
 16bit Sensation: Another Layer|c|1|1|13|10|10
-Frieren|w|1|1|20|2|10
+Frieren|w|1|1|20|3|10
