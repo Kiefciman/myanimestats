@@ -1,5 +1,5 @@
 Chainsaw Man|h|1|1|12|12|10
-Jojo|w|5|3|24|3|9
+Jojo|w|5|3|24|3|8
 Made in abyss|w|1|1|13|10|10
 One Punch Man|w|3|2|12|1|10
 Attack on Titan|h|4-3|4-3|2|1|10
@@ -57,7 +57,7 @@ Shadow House|p|1|0|0|0|0
 Konosuba|c|2|1|7|7|10
 Naruto Shippuuden|w|1|1|500|190|10
 Seraph of the end|c|2|1|24|2|10
-Konosuba: an explosion on this wonderful world|w|1|1|12|1|10
+Konosuba: an explosion on this wonderful world|c|1|1|12|1|10
 Bocchi the Rock|w|1|1|12|5|10
 16bit Sensation: Another Layer|c|1|1|13|10|10
 Frieren|w|1|1|20|4|10
